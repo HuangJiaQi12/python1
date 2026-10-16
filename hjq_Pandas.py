@@ -79,4 +79,5 @@ df1=pd.DataFrame(np.ones((3,4))*0,index=[1,2,3],columns=['a','b','c','d'])
 df2=pd.DataFrame(np.ones((3,4))*1,index=[2,3,4],columns=['e','b','c','d'])
 res=pd.concat([df1,df2],axis=0,join='inner',ignore_index=True)
 print(res)
+df3=pd.DataFrame(np.ones(3,4)*0,index=[1,2,3],columns=['a','b','c','d'])
 
